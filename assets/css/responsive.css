@@ -1,0 +1,288 @@
+@media only screen and (max-width:1024px){
+    nav ul.navbar-nav li {
+        margin-left: 17px;
+    }
+    .header-button {
+        margin-left: 8px;
+    }  
+}
+@media only screen and (max-width:992px) {
+     .hambuger{
+        display: none;
+        float: right;
+    }
+    .heder-top .left-side ul li{
+        margin-right: 10px;
+    }
+    .heder-top .right-side ul li{
+        padding: 11px 10px;
+    }
+    nav ul.navbar-nav li {
+        margin-left: 17px;
+        position: relative;
+    }
+    .header-button {
+        margin-left: 25px;
+    }
+    .thm-btn{
+        padding: 16px 32px;
+    }
+    .slider-btn .border-btn{
+        padding: 14px 32px;  
+    }
+    .slider-all button.slick-arrow{
+        height: 65px;
+        width: 65px;
+        font-size: 30px;
+    }
+    .about-tab-item{
+        padding: 17px 10px 16px 10px; 
+    }
+    .about-tab-thumb{
+        display: none;
+    }
+    .about-tab-content{
+        margin-left: 10px;
+    }
+    .about-tab-content h4{
+        text-align: left;
+    }
+    .testimonial-area .counter-left{
+        padding-left: 100px;
+    }
+    .counter-content ul li{
+        margin-bottom: 75px;
+    }
+    .testimonial-text h3{
+        font-size: 18px;
+    }
+    .testimonial-text span{
+        margin-bottom: 15px
+    }
+    .testimonial-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-area{
+        padding-top: 60px;
+        padding-bottom: 60px; 
+    }
+    .footer-widget {
+        padding-top: 50px;
+    }
+    .footer-widget-space {
+        margin-left: 0px;
+    }
+    .footer-link {
+        margin-left: 0px;
+    }
+    .footer-gallery-item {
+        width: 33.33%;
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    .heder-top {
+        display: none;
+    }
+    .header-button{
+        display: none;
+    }
+    .heder-bottom img{
+        padding: 15px 0px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    nav ul.navbar-nav > li{
+        margin-left:0px;
+        border-top: 1px solid #002052 ; 
+    }
+    nav ul.navbar-nav > li:last-child{
+        border-top:0px 
+    }
+    nav ul.navbar-nav li a{
+        padding: 12px 0px !important;
+        margin-left:32px;
+        display: inline-block; 
+    }
+    nav ul.navbar-nav li i{
+        position: absolute;
+        font-size: 30px;
+        top: 0;
+        right: 0;
+        color:#fff;
+        background: #002052;
+        padding: 8px 17px;
+        display: block;
+        transition: 0.2s;
+    }
+    nav ul.navbar-nav li i.sub-rotate{
+        transform: rotate(90deg);
+        padding: 8px 17px;
+        color: #fff;
+        background: #002052;
+        transition: 0.2s;
+    } 
+    nav ul.navbar-nav li ul.dropdown-menu li a{
+        margin-left:0px;
+    }
+    nav ul.navbar-nav li ul.dropdown-menu li{
+        margin-left: 32px;
+    }
+    nav ul.navbar-nav li ul.dropdown-menu{
+        position:initial;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        border-top: 1px solid #002052 ;
+        padding: 6px 0px;
+        display: none;
+        transition: none;
+        border-radius:0;
+        box-shadow: none;
+    }
+    /*------------------------------*/
+    .about-tab-item{
+        padding: 10px;
+    }
+    .about-tab-content h4{
+        font-size: 16px;
+    }
+    .about-tab-content {
+        margin-left: 0px;
+    }
+    .about-right-content{
+        top: -8px;
+        left: 65px;
+    }
+    .feature-area .feature-single{
+        margin-bottom: 30px;
+    }
+    .testimonial-area .counter-left {
+        padding-left: 60px;
+    }
+    .contact-thumb-left img {
+        width: 54%;
+    }
+    .contact-left{
+        margin-bottom: 148px;
+    }
+    .contact-thumb-left .contact-shape{
+        top: 55px;
+        width: 40%;
+        left: 48px;  
+    }
+    .contact-thumb-right{
+        top: 190px;
+        right: 210px; 
+    }
+    .contact-area .contact-right .border-title-2 h1 {
+        left: 7px;
+    }
+    .contact-right {
+        margin-left: 0px;
+    }
+ 
+}
+@media only screen and (max-width:576px){
+    .heder-bottom img {
+        padding: 12px 0px;
+    }
+    .slider-content h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .about-tab .nav-tabs .nav-link{
+        width: 100%;
+    }
+    .about-tab-item {
+        padding: 20px;
+    }
+    .about-tab-content h4 {
+        font-size: 20px;
+    }
+    .about-wrapper {
+        padding-top: 90px;
+    }
+    .border-titel-2 h1{
+        font-size: 65px;
+        top: -45px;
+    }
+    .about-title h2{
+        font-size: 28px;
+        line-height: 41px;  
+    } 
+    .about-left .about-btn a {
+        margin-right:20px;
+    }
+    .about-right {
+        margin-top: 90px;
+    }
+    .about-right-content {
+        top: -37px;
+        left: 0px;
+    }
+    .border-title h1 {
+        font-size: 65px;
+        top: 75px;
+    }
+    .section-title h2{
+        font-size: 28px;
+    }
+    .project-text-box {
+        padding: 40px;
+    }
+    .project-text-box {
+        width: calc(100% - 140px);
+    }
+    .testimonial-area .counter-left {
+      padding-left: 0px;
+    }
+    .counter-content{
+        margin: auto;
+    }
+    .contact-thumb-left img {
+        width: 75%;
+    }
+    .contact-thumb-left .contact-shape {
+        height: 78%;
+        top: 33px;
+        left: 36px;
+        border: 20px solid #fff;
+    }
+    .contact-thumb-right {
+        top: 190px;
+        right: 0px;
+    }
+    .contact-thumb-right img {
+        width: 242px;
+        height: 260px;
+    }
+    .border-title-2 h1 {
+        font-size: 65px;
+        left: 12px;
+        top: -45px;
+
+    }  
+    .text-end {
+        text-align: left !important;
+    }
+    .footer-link {
+        margin-left: 15px;
+    }
+    .footer-widget {
+        padding-top: 30px;
+    }
+    .scrollup{
+        height: 45px;
+        width: 45px;
+        right: 15px;
+        font-size: 22px;
+        line-height: 49px;
+    }
+}
